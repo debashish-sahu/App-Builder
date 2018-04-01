@@ -8,8 +8,5 @@ html {
 }
 
 body {
-    display: table-cell;
     vertical-align: top;
-    max-width: 800px;
-    min-width: 500px;;
 }
