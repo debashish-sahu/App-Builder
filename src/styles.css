@@ -1,16 +1,16 @@
 html, body {
     height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 html {
-    display: table;
     margin: auto;
 }
 
 body {
     vertical-align: top;
-}
 
+}
 .pagecontent{
-    padding-left: 20px;padding-right: 20px;
+    height: 100%;
 }

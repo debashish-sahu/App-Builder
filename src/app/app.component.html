@@ -1,14 +1,18 @@
+
 <div class="pagecontent">
-  <h1>
-    Welcome {{ title }}!
-  </h1>
+  <app-header></app-header>
   <div class="panel panel-default">
     <div class="panel-body">
-      <app-input-text property="Name"></app-input-text>
-      <app-input-text property="Email ID"></app-input-text>
-      <app-input-text property="Phone"></app-input-text>
-      <button type="button" class="btn btn-primary">Submit</button>
+      <form class="form-horizontal">
+        <app-input-text property="Name"></app-input-text>
+        <app-input-text property="Email ID"></app-input-text>
+        <app-input-text property="Phone"></app-input-text>
+        <div class="text-center">
+            <button type="button" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-primary">Clear</button>
+        </div>
+      </form>
     </div>
   </div>
+  <app-footer></app-footer>
 </div>
-
